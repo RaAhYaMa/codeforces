@@ -18,14 +18,14 @@ public class test {
         out = new PrintWriter(outputStream);
 
         int x = in.nextInt();
-	if (x % 2 == 0 && x >= 4) {
-	    out.println("YES");
-	}
-	else {
-	    out.println("NO");
-	}
+        if (x % 2 == 0 && x >= 4) {
+            out.println("YES");
+        }
+        else {
+            out.println("NO");
+        }
 
-	out.close();
+        out.close();
     }
 
     static class InputReader {
